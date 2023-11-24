@@ -1,0 +1,33 @@
+{
+	"name": "website",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./jsconfig.json --watch",
+		"deploy": "svelte-kit build && gh-pages -d build"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^2.0.0",
+		"@sveltejs/adapter-node": "^1.3.1",
+		"@sveltejs/kit": "^1.20.4",
+		"autoprefixer": "^10.4.15",
+		"daisyui": "^3.7.3",
+		"postcss": "^8.4.29",
+		"svelte": "^4.0.5",
+		"svelte-check": "^3.4.3",
+		"svelte-copy": "^1.4.1",
+		"svelte-material-icons": "^3.0.5",
+		"tailwindcss": "^3.3.3",
+		"typescript": "^5.0.0",
+		"vite": "^4.4.2"
+	},
+	"type": "module",
+	"dependencies": {
+		"gh-pages": "^6.1.0",
+		"theme-change": "^2.5.0"
+	}
+}
