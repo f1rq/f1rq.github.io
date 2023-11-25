@@ -1,7 +1,7 @@
 version: '3'
 services:
   app:
-    image: wpkg/website
+    image: f1rq/website
     container_name: website
     build:
       context: .
