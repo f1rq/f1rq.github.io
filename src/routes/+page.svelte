@@ -5,7 +5,7 @@
 </script>
 
 <section id=home>
-    <Hero />
+    <Hero /> 
 </section>
 
 <section id=contact>

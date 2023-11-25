@@ -15,4 +15,6 @@
 	:root {
 		@apply bg-base-200;
 	}
+	
+	
 </style>
