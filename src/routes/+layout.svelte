@@ -1,11 +1,10 @@
 <script>
 	import "../app.css";
-    import NavBar from "../lib/components/NavBar.svelte";
 	export const prerender = true;
 	export const trailingSlash = 'always';
 </script>
 
-<NavBar></NavBar>
+
 
 <main class="">
 	<slot />
