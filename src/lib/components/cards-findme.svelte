@@ -1,5 +1,10 @@
+<script>
+  import Saos from "saos";
+</script>
+
 <div class="grid gap-4 grid-cols-3">
-    <div class="card w-96 bg-base-100 shadow-xl">
+  <Saos animation={"slide-in-blurred-top 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+  <div class="card w-96 bg-base-100 shadow-xl">
         <div class="card-body">
           <h2 class="card-title text-3xl">Github</h2>
           <p>My github: <span class="text-accent">github.com/f1rq</span></p>
@@ -8,9 +13,10 @@
           </div>
         </div>
     </div>
-
+  </Saos>
+  <Saos animation={"slide-in-blurred-top 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="card w-96 bg-base-100 shadow-xl">
-        <div class="card-body">
+      <div class="card-body">
           <h2 class="card-title text-3xl">X</h2>
           <p>My X: <span class="text-accent">x.com/_f1rq_</span></p>
           <div class="card-actions justify-end">
@@ -18,7 +24,8 @@
           </div>
         </div>
     </div>
-
+  </Saos>
+  <Saos animation={"slide-in-blurred-top 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="card w-96 bg-base-100 shadow-xl">
         <div class="card-body">
           <h2 class="card-title text-3xl">Instagram</h2>
@@ -28,7 +35,8 @@
           </div>
         </div>
     </div>
-
+  </Saos>
+  <Saos animation={"slide-in-blurred-top 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="card w-96 bg-base-100 shadow-xl">
         <div class="card-body">
           <h2 class="card-title text-3xl">YouTube</h2>
@@ -38,7 +46,8 @@
           </div>
         </div>
     </div>
-
+    </Saos>
+    <Saos animation={"slide-in-blurred-top 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="card w-96 bg-base-100 shadow-xl">
         <div class="card-body">
           <h2 class="card-title text-3xl">Google Dev Profile</h2>
@@ -48,4 +57,5 @@
           </div>
         </div>
     </div>
+    </Saos>
 </div>

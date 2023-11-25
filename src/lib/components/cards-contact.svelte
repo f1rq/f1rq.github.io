@@ -1,8 +1,10 @@
 <script>
   import { copy } from 'svelte-copy';
+  import Saos from 'saos';
 </script>
 
 <div class="grid gap-4 grid-cols-2">
+<Saos animation={"slide-in-blurred-top 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 <div class="card w-96 bg-base-100 shadow-xl">
     <div class="card-body">
       <h2 class="card-title text-3xl">E-Mail</h2>
@@ -12,7 +14,8 @@
       </div>
     </div>
 </div>
-
+</Saos>
+<Saos animation={"slide-in-blurred-top 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 <div class="card w-96 bg-base-100 shadow-xl">
   <div class="card-body">
     <h2 class="card-title text-3xl">Matrix</h2>
@@ -22,4 +25,5 @@
     </div>
   </div>
 </div>
+</Saos>
 </div>
