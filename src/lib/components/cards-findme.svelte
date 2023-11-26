@@ -1,5 +1,6 @@
 <script>
   import Saos from "saos";
+  let phonescreen = true
 </script>
 
 <style>
