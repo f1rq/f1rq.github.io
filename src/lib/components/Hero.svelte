@@ -1,9 +1,8 @@
 <script>
   import Saos from "saos";
 </script>
-
-<div class="hero min-h-screen bg-base-200">
-  <Saos animation={"fade-in 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+<div class="hero min-h-screen">
+  <Saos animation={"swing-in-top-fwd 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
   <div class="hero-content text-center">
     <div class="max-w-md">
       <h1 class="text-5xl font-bold">Hi, I'm <span class="text-accent">f1rq</span></h1>
