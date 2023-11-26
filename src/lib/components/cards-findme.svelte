@@ -8,7 +8,7 @@
   }
 </style>
 
-<div class="flex flex-wrap max-w-[67vw]">
+<div class="flex flex-wrap justify-center max-w-[135vh]">
   <Saos animation={"swing-in-top-fwd 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
   <div class="card w-96 bg-base-100 shadow-xl mt-5 mb-5 mx-5">
         <div class="card-body">
