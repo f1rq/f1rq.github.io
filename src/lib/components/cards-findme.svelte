@@ -3,7 +3,7 @@
 </script>
 
 <div class="flex flex-wrap max-w-[67vw]">
-  <Saos animation={"slide-in-blurred-top 0.5s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+  <Saos animation={"fade-in 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
   <div class="card w-96 bg-base-100 shadow-xl mt-5 mb-5 mx-5">
         <div class="card-body">
           <h2 class="card-title text-3xl font-bold">Github</h2>
@@ -14,7 +14,7 @@
         </div>
     </div>
   </Saos>
-  <Saos animation={"slide-in-blurred-top 0.5s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+  <Saos animation={"fade-in 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="card w-96 bg-base-100 shadow-xl mt-5 mb-5 mx-5">
       <div class="card-body">
           <h2 class="card-title text-3xl font-bold">X</h2>
@@ -25,7 +25,7 @@
         </div>
     </div>
   </Saos>
-  <Saos animation={"slide-in-blurred-top 0.5s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+  <Saos animation={"fade-in 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="card w-96 bg-base-100 shadow-xl mt-5 mb-5 mx-5">
         <div class="card-body">
           <h2 class="card-title text-3xl font-bold">Instagram</h2>
@@ -36,7 +36,7 @@
         </div>
     </div>
   </Saos>
-  <Saos animation={"slide-in-blurred-top 0.5s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+  <Saos animation={"fade-in 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="card w-96 bg-base-100 shadow-xl mt-5 mb-5 mx-5">
         <div class="card-body">
           <h2 class="card-title text-3xl font-bold">YouTube</h2>
@@ -47,7 +47,7 @@
         </div>
     </div>
     </Saos>
-    <Saos animation={"slide-in-blurred-top 0.5s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+    <Saos animation={"fade-in 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
     <div class="card w-96 bg-base-100 shadow-xl mt-5 mb-5 mx-5">
         <div class="card-body">
           <h2 class="card-title text-3xl font-bold">Google Dev Profile</h2>

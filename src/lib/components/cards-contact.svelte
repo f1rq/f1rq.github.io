@@ -4,7 +4,7 @@
 </script>
 
 <div class="flex flex-wrap max-w-[85vw]">
-<Saos animation={"slide-in-blurred-top 0.5s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+<Saos animation={"fade-in 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 <div class="card w-96 bg-base-100 shadow-xl mx-5 mt-5 mb-5">
     <div class="card-body">
       <h2 class="card-title text-3xl font-bold">E-Mail</h2>
@@ -15,7 +15,7 @@
     </div>
 </div>
 </Saos>
-<Saos animation={"slide-in-blurred-top 0.5s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+<Saos animation={"fade-in 1s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
 <div class="card w-96 bg-base-100 shadow-xl mx-5 mt-5 mb-5">
   <div class="card-body">
     <h2 class="card-title text-3xl font-bold">Matrix</h2>
