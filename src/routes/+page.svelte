@@ -3,6 +3,7 @@
     import CardsContact from "$lib/components/cards-contact.svelte";
     import CardsFindme from "$lib/components/cards-findme.svelte";
     import NavBar from "$lib/components/NavBar.svelte";
+    import Footer from "../lib/components/footer.svelte";
 </script>
 
 <NavBar />
@@ -22,3 +23,5 @@
         <CardsFindme />
     </div>
 </section>
+
+<Footer />
