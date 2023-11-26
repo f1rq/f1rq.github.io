@@ -1,5 +1,5 @@
 <script>
-  import Saos from "saos";
+  import Saos from "saos"; 
 </script>
 
 <style>
