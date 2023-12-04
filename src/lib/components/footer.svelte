@@ -11,9 +11,9 @@
 <footer class="footer footer-center p-4 bg-base-200 text-base-content">
     <aside>
       <p>website by <span class="font-bold">f1rq</span> - 2023</p>
-      <div class="badge badge-svelte gap-2">
+      <a href="https://svelte.dev" class="badge badge-svelte gap-2">
         <img src="{Sveltelogo}" alt="sveltelogo" width="18px" height="18px">
         Made with Svelte
-      </div>
+      </a>
     </aside>
   </footer>
