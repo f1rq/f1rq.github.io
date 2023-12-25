@@ -91,7 +91,7 @@
                       <img src="{IGLogo}" alt="IGlogo" width="15px" height="15px">
                       Instagram
                     </a>
-                    <a href="youtube.com/@_f1rq_" class="badge badge-yt gap-2 shadow-effect2 m-1">
+                    <a href="https://youtube.com/@_f1rq_" class="badge badge-yt gap-2 shadow-effect2 m-1">
                       <img src="{YTLogo}" alt="YTlogo" width="15px" height="15px">
                       YouTube
                     </a>
