@@ -3,7 +3,8 @@
     import CardsContact from "$lib/components/cards-contact.svelte";
     import CardsFindme from "$lib/components/cards-findme.svelte";
     import NavBar from "$lib/components/NavBar.svelte";
-    import Footer from "../lib/components/footer.svelte";
+    import Footer from "$lib/components/footer.svelte";
+    import Hobbys from "$lib/components/hobbys.svelte";
 </script>
 
 <NavBar />
@@ -12,12 +13,12 @@
     <Hero />
 </section>
 
-<!--<section id="findme">
+<section id="hobbys">
     <div class="hero min-h-screen">
-        <CardsFindme />
+        <Hobbys />
     </div>
 </section>
--->
+
 
 <section id="contact">
     <div class="hero min-h-screen">

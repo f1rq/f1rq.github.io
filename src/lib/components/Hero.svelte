@@ -67,13 +67,13 @@
     <div class="max-w-md">
       <Saos animation={"swing-in-top-fwd 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
       <h1 class="text-5xl font-bold">Hi, I'm <span class="text-accent">f1rq</span></h1>
-      <p class="py-6">I'm a beginner programmer and passionate gamer from Poland. I'm a beginner programmer who likes especially webdev, from the front-end site. I'm also learning to play electric guitar.</p>
+      <p class="py-6">I'm a beginner programmer, passionate gamer and high school student from Poland.</p>
       </Saos>
       <Saos animation={"swing-in-top-fwd 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
       <div class="space-x-5">
       <a class="btn btn-primary shadow-effect" href="#contact">Contact with me</a>
       <a class="btn btn-primary shadow-effect" href="#findme">Find me anywhere</a>
-      <div class="collapse collapse-arrow bg-base-200 mt-8 max-w-[45vh]">
+      <div class="collapse collapse-arrow bg-base-200 mt-8 w-[45vh]">
         <input type="checkbox" /> 
         <div class="collapse-title text-xl font-medium bg-primary shadow-effect">
           Socials
@@ -109,7 +109,8 @@
                     </a>
             </div>
       </div>
-    </div>   
+    </div> 
+    <p class="mt-5 text-xs">I will fix website on mobile devices soon.</p>  
     </Saos>
     </div>
   </div>
