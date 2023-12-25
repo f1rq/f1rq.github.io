@@ -71,9 +71,9 @@
       </Saos>
       <Saos animation={"swing-in-top-fwd 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
       <div class="space-x-5">
-      <a class="btn btn-primary shadow-effect w-[19vh]" href="#contact">Contact with me</a>
-      <a class="btn btn-primary shadow-effect w-[19vh]" href="#hobbys">See my hobbys</a>
-      <div class="collapse collapse-arrow bg-base-200 mt-8 w-[45vh]">
+      <a class="btn btn-primary shadow-effect w-[20vh]" href="#contact">Contact with me</a>
+      <a class="btn btn-primary shadow-effect w-[20vh]" href="#hobbys">See my hobbys</a>
+      <div class="collapse collapse-arrow bg-base-200 mt-8 w-[44vh]">
         <input type="checkbox" /> 
         <div class="collapse-title text-xl font-medium bg-primary shadow-effect">
           Socials
