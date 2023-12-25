@@ -31,4 +31,14 @@
             </div>
         </div>
     </Saos>
+    <Saos animation={"swing-in-top-fwd 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
+        <div class="card w-96 bg-base-100 shadow-xl mx-5 mt-5 mb-5">
+            <div class="card-body">
+                <h2 class="card-title text-3xl font-bold">Discord</h2>
+                <p>If you want to contact me via Discord, send friend request to <span class="text-accent">f1rq</span></p>
+                <div class="card-actions justify-end">
+                    <button use:copy={'f1rq'} class="btn btn-primary shadow-effect">click to copy</button>
+                </div>
+            </div>
+        </Saos>
 </div>

@@ -12,16 +12,18 @@
     <Hero />
 </section>
 
+<!--<section id="findme">
+    <div class="hero min-h-screen">
+        <CardsFindme />
+    </div>
+</section>
+-->
+
 <section id="contact">
     <div class="hero min-h-screen">
         <CardsContact />
     </div>
 </section>
 
-<section id="findme">
-    <div class="hero min-h-screen">
-        <CardsFindme />
-    </div>
-</section>
 
 <Footer />
