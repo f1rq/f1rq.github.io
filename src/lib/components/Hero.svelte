@@ -71,47 +71,47 @@
       </Saos>
       <Saos animation={"swing-in-top-fwd 0.8s cubic-bezier(0.35, 0.5, 0.65, 0.95) both"}>
       <div class="space-x-5">
-      <a class="btn btn-primary shadow-effect w-[20vh]" href="#contact">Contact with me</a>
-      <a class="btn btn-primary shadow-effect w-[20vh]" href="#hobbys">See my hobbys</a>
-      <div class="collapse collapse-arrow bg-base-200 mt-8 w-[44vh]">
-        <input type="checkbox" /> 
-        <div class="collapse-title text-xl font-medium bg-primary shadow-effect">
-          Socials
-        </div>
-            <div class="collapse-content bg-primary"> 
-                    <a href="https://github.com/f1rq" class="badge badge-github gap-2 shadow-effect2 m-1">
-                      <img src="{GithubLogo}" alt="githublogo" width="15px" height="15px">
-                      Github
-                    </a>
-                    <a href="https://x.com/_f1rq_" class="badge badge-twitter gap-2 shadow-effect2 m-1">
-                      <img src="{XLogo}" alt="xlogo" width="15px" height="15px">
-                      Twitter
-                    </a>
-                    <a href="https://www.instagram.com/_f1rq_/" class="badge badge-ig gap-2 shadow-effect2 m-1">
-                      <img src="{IGLogo}" alt="IGlogo" width="15px" height="15px">
-                      Instagram
-                    </a>
-                    <a href="https://youtube.com/@_f1rq_" class="badge badge-yt gap-2 shadow-effect2 m-1">
-                      <img src="{YTLogo}" alt="YTlogo" width="15px" height="15px">
-                      YouTube
-                    </a>
-                    <a href="https://open.spotify.com/user/dcfv3p5qxwa0sfdimxgyqabri" class="badge badge-spotify gap-2 shadow-effect2 m-1">
-                      <img src="{Spotifylogo}" alt="Spotifylogo" width="15px" height="15px">
-                      Spotify
-                    </a>
-                    <a href="https://steamcommunity.com/id/f1rq/" class="badge badge-steam gap-2 shadow-effect2 m-1">
-                      <img src="{steamLogo}" alt="steamlogo" width="15px" height="15px">
-                      Steam
-                    </a>
-                    <a href="https://myanimelist.net/profile/f1rq" class="badge badge-mal gap-2 shadow-effect2 m-1">
-                      <img src="{malLogo}" alt="mallogo" width="15px" height="15px">
-                      MyAnimeList
-                    </a>
-            </div>
-      </div>
+      <a class="btn btn-primary shadow-effect w-[20vh]" href="#contact">Contact me</a>
+      <a class="btn btn-primary shadow-effect w-[20vh]" href="#hobbys">My hobbys</a>
     </div> 
-    <p class="mt-5 text-xs">I will fix website on mobile devices soon.</p>  
     </Saos>
+    <div class="collapse collapse-arrow bg-base-200 mt-8">
+      <input type="checkbox" /> 
+      <div class="collapse-title text-xl font-medium bg-primary shadow-effect">
+        Socials
+      </div>
+          <div class="collapse-content bg-primary"> 
+                  <a href="https://github.com/f1rq" class="badge badge-github gap-2 shadow-effect2 m-1">
+                    <img src="{GithubLogo}" alt="githublogo" width="15px" height="15px">
+                    Github
+                  </a>
+                  <a href="https://x.com/_f1rq_" class="badge badge-twitter gap-2 shadow-effect2 m-1">
+                    <img src="{XLogo}" alt="xlogo" width="15px" height="15px">
+                    Twitter
+                  </a>
+                  <a href="https://www.instagram.com/_f1rq_/" class="badge badge-ig gap-2 shadow-effect2 m-1">
+                    <img src="{IGLogo}" alt="IGlogo" width="15px" height="15px">
+                    Instagram
+                  </a>
+                  <a href="https://youtube.com/@_f1rq_" class="badge badge-yt gap-2 shadow-effect2 m-1">
+                    <img src="{YTLogo}" alt="YTlogo" width="15px" height="15px">
+                    YouTube
+                  </a>
+                  <a href="https://open.spotify.com/user/dcfv3p5qxwa0sfdimxgyqabri" class="badge badge-spotify gap-2 shadow-effect2 m-1">
+                    <img src="{Spotifylogo}" alt="Spotifylogo" width="15px" height="15px">
+                    Spotify
+                  </a>
+                  <a href="https://steamcommunity.com/id/f1rq/" class="badge badge-steam gap-2 shadow-effect2 m-1">
+                    <img src="{steamLogo}" alt="steamlogo" width="15px" height="15px">
+                    Steam
+                  </a>
+                  <a href="https://myanimelist.net/profile/f1rq" class="badge badge-mal gap-2 shadow-effect2 m-1">
+                    <img src="{malLogo}" alt="mallogo" width="15px" height="15px">
+                    MyAnimeList
+                  </a>
+          </div>
+    </div>
+    <p class="mt-5 text-xs">I will fix website on mobile devices soon.</p>  
     </div>
   </div>
 </div>
