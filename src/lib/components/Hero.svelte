@@ -7,6 +7,7 @@
   import Spotifylogo from "$lib/img/spotifylogo.svg";
   import steamLogo from "$lib/img/steamlogo.svg";
   import malLogo from "$lib/img/mallogo.svg";
+  import coffelogo from "$lib/img/coffe.svg"
 </script>
 
 <style>
@@ -37,7 +38,9 @@
   .badge-mal {
     background-color: #254286;
   }
-
+  .badge-coffe {
+    background-color: #867400;
+  }
 
   .badge-github:hover {
     background-color: #1c1a1a;
@@ -59,6 +62,9 @@
   }
   .badge-mal:hover {
     background-color: #2e53a8;
+  }
+  .badge-coffe:hover {
+    background-color: #9d8800;
   }
 </style>
 
@@ -108,6 +114,10 @@
                   <a href="https://myanimelist.net/profile/f1rq" class="badge badge-mal gap-2 shadow-effect2 m-1">
                     <img src="{malLogo}" alt="mallogo" width="15px" height="15px">
                     MyAnimeList
+                  </a>
+                  <a href="https://www.buymeacoffee.com/f1rq" class="badge badge-coffe gap-2 shadow-effect2 m-1">
+                    <img src="{coffelogo}" alt="coffelogo" width="30px" height="30px">
+                    Buy me a coffe
                   </a>
           </div>
     </div>
