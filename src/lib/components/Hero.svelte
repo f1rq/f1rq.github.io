@@ -116,7 +116,7 @@
                     MyAnimeList
                   </a>
                   <a href="https://www.buymeacoffee.com/f1rq" class="badge badge-coffe gap-2 shadow-effect2 m-1">
-                    <img src="{coffelogo}" alt="coffelogo" width="30px" height="30px">
+                    <img src="{coffelogo}" alt="coffelogo" width="20px">
                     Buy me a coffe
                   </a>
           </div>
