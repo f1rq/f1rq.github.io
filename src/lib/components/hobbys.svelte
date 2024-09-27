@@ -12,7 +12,7 @@
       <figure><img src="{gamingimg}" alt="gamingimg"/></figure>
       <div class="card-body">
         <h2 class="card-title">Gaming</h2>
-        <p>There's not much to say. I just enjoy gaming like normal teenager.</p>
+        <p>There's not much to say. I just enjoy gaming like typical teenager.</p>
       </div>
     </div>
   </Saos>
