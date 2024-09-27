@@ -107,10 +107,12 @@
                     <img src="{Spotifylogo}" alt="Spotifylogo" width="15px" height="15px">
                     Spotify
                   </a>
+                  <!--
                   <a href="https://steamcommunity.com/id/f1rq/" class="badge badge-steam gap-2 shadow-effect2 m-1">
                     <img src="{steamLogo}" alt="steamlogo" width="15px" height="15px">
                     Steam
                   </a>
+                  -->
                   <a href="https://myanimelist.net/profile/f1rq" class="badge badge-mal gap-2 shadow-effect2 m-1">
                     <img src="{malLogo}" alt="mallogo" width="15px" height="15px">
                     MyAnimeList
