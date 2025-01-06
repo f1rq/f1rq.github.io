@@ -7,7 +7,7 @@
 		"preview": "vite preview",
 		"package": "svelte-kit sync && svelte-package && publint",
 		"prepublishOnly": "npm run package",
-		"deploy": "npm run build && touch build/.nojekyll && gh-pages -d build -t true"
+		"deploy": "npm run build && gh-pages -d build -t true"
 	},
 	"files": [
 		"dist",
@@ -23,7 +23,6 @@
 		"svelte": "^5.0.0"
 	},
 	"devDependencies": {
-		"@sveltejs/adapter-auto": "^3.3.1",
 		"@sveltejs/kit": "^2.0.0",
 		"@sveltejs/package": "^2.0.0",
 		"@sveltejs/vite-plugin-svelte": "^4.0.0",
@@ -38,7 +37,7 @@
 	},
 	"dependencies": {
 		"@fortawesome/fontawesome-free": "^6.7.2",
-		"@sveltejs/adapter-auto": "^3.3.1",
+		"@sveltejs/adapter-static": "^3.0.8",
 		"clsx": "^2.1.1",
 		"gh-pages": "^6.3.0",
 		"install": "^0.13.0",

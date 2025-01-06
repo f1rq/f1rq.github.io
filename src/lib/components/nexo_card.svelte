@@ -1,9 +1,10 @@
 <script>
     import CardBodyImg from "./nexo_body_card.svelte";
     import nexo_mockup from "$lib/img/nexo_mockup.png";
+    import { base } from '$app/paths';
 </script>
   
-<a href="/nexo_project">
+<a href="{base}/nexo_project" >
   <div class="rounded-3xl shadow-3xl relative overflow-hidden group card">
     <img
       src={nexo_mockup}
