@@ -7,7 +7,7 @@
 		"preview": "vite preview",
 		"package": "svelte-kit sync && svelte-package && publint",
 		"prepublishOnly": "npm run package",
-		"deploy": "npm run build && touch build/.nojekyll && gh-pages -d build -t true"
+		"deploy": "npm run build && touch .nojekyll && gh-pages -d build -t true"
 	},
 	"files": [
 		"dist",
