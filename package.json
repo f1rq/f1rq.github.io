@@ -1,0 +1,55 @@
+{
+	"name": "kit-v2-f1rq.github.io",
+	"version": "0.0.1",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build && npm run package",
+		"preview": "vite preview",
+		"package": "svelte-kit sync && svelte-package && publint",
+		"prepublishOnly": "npm run package"
+	},
+	"files": [
+		"dist",
+		"!dist/**/*.test.*",
+		"!dist/**/*.spec.*"
+	],
+	"sideEffects": [
+		"**/*.css"
+	],
+	"svelte": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"type": "module",
+	"exports": {
+		".": {
+			"types": "./dist/index.d.ts",
+			"svelte": "./dist/index.js"
+		}
+	},
+	"peerDependencies": {
+		"svelte": "^5.0.0"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^3.0.0",
+		"@sveltejs/kit": "^2.0.0",
+		"@sveltejs/package": "^2.0.0",
+		"@sveltejs/vite-plugin-svelte": "^4.0.0",
+		"autoprefixer": "^10.4.20",
+		"daisyui": "^4.12.23",
+		"postcss": "^8.4.49",
+		"publint": "^0.2.0",
+		"svelte": "^5.0.0",
+		"tailwindcss": "^3.4.9",
+		"typescript": "^5.3.2",
+		"vite": "^5.4.11"
+	},
+	"dependencies": {
+		"@fortawesome/fontawesome-free": "^6.7.2",
+		"clsx": "^2.1.1",
+		"install": "^0.13.0",
+		"npm": "^11.0.0",
+		"simple-icons-font": "^14.0.1",
+		"svelte-inview": "^4.0.4",
+		"svelte-motion": "^0.12.2",
+		"tailwind-merge": "^2.6.0"
+	}
+}
