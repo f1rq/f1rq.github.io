@@ -3,6 +3,11 @@ export default {
   content: ['./src/**/*.{html,js,svelte,ts}'],
   theme: {},
   plugins: [require('daisyui')],
+  extend: {
+    backgroundImage: {
+      'bgimg' : "url('/src/lib/img/bg.png')",
+    }
+  },
   daisyui: {
     themes: [
       {
