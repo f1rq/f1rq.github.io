@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-auto';
 const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
