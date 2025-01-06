@@ -31,7 +31,7 @@ jobs:
           BASE_PATH: '/f1rq.github.io'
         run: |
           npm run build
-          touch build/.nojekyll
+          touch static/.nojekyll
 
       - name: Upload Artifacts
         uses: actions/upload-pages-artifact@v1
