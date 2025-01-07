@@ -55,7 +55,7 @@
     <div class="modal-box">
       <h3 class="text-lg font-bold">E-Mail</h3>
       <p class="py-4">To contact me via E-Mail, send message at:<br>
-        <a href="mailto:f1rq@duck.com"><span class="text-[#bf0404] hover:text-[#ff0303] transition-colors">f1rq@duck.com</span></a></p>
+        <a href="mailto:contact@f1rq.ovh"><span class="text-[#bf0404] hover:text-[#ff0303] transition-colors">contact@f1rq.ovh</span></a></p>
 
       <div class="modal-action">
         <form method="dialog">
