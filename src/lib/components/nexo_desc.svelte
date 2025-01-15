@@ -29,6 +29,8 @@
                             <li>/warnlist</li>
                             <li>/clear</li>
                             <li>/ping</li>
+                            <li>/kick</li>
+                            <li>/ban</li>
                         </ul>
                     <p class="ctext2 max-w-96 text-xl">and much more, also I'm still adding new features. Suggestions are welcome.</p>
                 </div>
